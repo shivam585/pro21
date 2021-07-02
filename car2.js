@@ -1,14 +1,14 @@
 class Car2{
-    constructor(speed,v){
+    constructor(spee,vi){
        
  
  
  
          this.x = Math.round( random(1050,1300))
-         this.y = v;
+         this.y = vi;
          this.spt = createSprite(this.x,this.y);
          this.spt.scale=0.5;
-         this.spt.velocityY = speed;
+         this.spt.velocityY = spee;
         
          var shapec=Math.round(random(1,4))
          switch(shapec){
