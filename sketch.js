@@ -6,7 +6,7 @@ var gameState = "play";
 var carAnimation, logAnimation, playerAnimation;
 var school;
 var city,ground1,ground20,road1;
-var stripes,pool1,rutu,car1,car2;
+var stripes,pool1,rutu,car1,car22;
 var log,road3,stripe3;
 
 function preload()
@@ -67,7 +67,7 @@ function draw() {
        }
 
        if(frameCount%20===0){
-        car2=new Car2(6,height/10)
+        car22=new Car2(6,height/10)
        }
 
        if(frameCount%30===0){
